@@ -19,19 +19,19 @@
       <div id="unity-mobile-warning">
         WebGL builds are not supported on mobile devices.
       </div>
-      <div id="unity-footer">
+      <!-- <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">TreasureCollection</div>
-      </div>
+      </div> -->
     </div>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/MyTreasureCollection.loader.js";
       var config = {
-        dataUrl: buildUrl + "/MyTreasureCollection.data.gz",
-        frameworkUrl: buildUrl + "/MyTreasureCollection.framework.js.gz",
-        codeUrl: buildUrl + "/MyTreasureCollection.wasm.gz",
+        dataUrl: buildUrl + "/MyTreasureCollection.data.unityweb",
+        frameworkUrl: buildUrl + "/MyTreasureCollection.framework.js.unityweb",
+        codeUrl: buildUrl + "/MyTreasureCollection.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "TreasureCollection",
